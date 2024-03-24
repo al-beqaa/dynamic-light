@@ -1,0 +1,699 @@
+{
+  "criteria": {
+    "level_15": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_15"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_15"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_14": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_14"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_14"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_13": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_13"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_13"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_12": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_12"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_12"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_11": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_11"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_11"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_10": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_10"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_10"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_9": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_9"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_9"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_8": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_8"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_8"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_7": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_7"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_7"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_6"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_6"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_5"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_5"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_4"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_4"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_3"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_3"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_2"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_2"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "level_1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:any_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "mainhand": {
+                          "tag": "dynamiclight:level_1"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "equipment": {
+                        "offhand": {
+                          "tag": "dynamiclight:level_1"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:in_valid_block"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "level_15"
+    ],
+    [
+      "level_14"
+    ],
+    [
+      "level_13"
+    ],
+    [
+      "level_12"
+    ],
+    [
+      "level_11"
+    ],
+    [
+      "level_10"
+    ],
+    [
+      "level_9"
+    ],
+    [
+      "level_8"
+    ],
+    [
+      "level_7"
+    ],
+    [
+      "level_6"
+    ],
+    [
+      "level_5"
+    ],
+    [
+      "level_4"
+    ],
+    [
+      "level_3"
+    ],
+    [
+      "level_2"
+    ],
+    [
+      "level_1"
+    ]
+  ],
+  "rewards": {
+    "function": "dynamiclight:light/set/item_advancement"
+  }
+}
