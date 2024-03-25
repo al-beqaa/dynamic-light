@@ -1,3 +1,3 @@
 execute as @e[type=marker,tag=dynamiclight.light_marker] at @s align xyz run function dynamiclight:light/delete
 execute as @e at @s align xyz if predicate dynamiclight:in_valid_block run function dynamiclight:light/all_entities_tick
-execute as @e at @s align xyz unless predicate dynamiclight:in_valid_block positioned ~ ~1 ~ if predicate dynamiclight:in_valid_block run function dynamiclight:light/all_entities_tick
+execute as @e at @s align xyz unless block ~ ~ ~ light unless predicate dynamiclight:in_valid_block positioned ~ ~1 ~ if predicate dynamiclight:in_valid_block run function dynamiclight:light/all_entities_tick
