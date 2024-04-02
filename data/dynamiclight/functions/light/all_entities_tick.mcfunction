@@ -1,6 +1,3 @@
-execute as @s[type=#dynamiclight:emit_item_light] run function dynamiclight:light/set/item
-
-execute as @s if predicate dynamiclight:glowing_effect summon marker run function dynamiclight:light/set/15
-execute as @s if predicate dynamiclight:on_fire summon marker run function dynamiclight:light/set/15
-execute as @s[type=#dynamiclight:level_15] summon marker run function dynamiclight:light/set/15
-execute as @s[type=#dynamiclight:level_10] summon marker run function dynamiclight:light/set/10
+execute if predicate dynamiclight:in_valid_block run return run function dynamiclight:light/entity_light
+execute unless block ~ ~ ~ light positioned ~ ~1 ~ if predicate dynamiclight:in_valid_block run function dynamiclight:light/entity_tick
+execute as @s[type=marker,tag=dynamiclight.light_marker] run function dynamiclight:light/delete
